@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Schizophrenia Support Fund</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background-color: #2a9d8f;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #264653;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #f0f4f8;
+      text-decoration: none;
+      padding: 1rem 1.2rem;
+      display: block;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #2a9d8f;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto 4rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h1, h2 {
+      color: #264653;
+    }
+    .btc-address {
+      font-family: monospace;
+      background: #e9f5f3;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      word-break: break-word;
+      user-select: all;
+    }
+    .donate-section img {
+      width: 180px;
+      margin-top: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(42, 157, 143, 0.5);
+    }
+    a.external-link {
+      color: #2a9d8f;
+      text-decoration: underline;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 150px;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #264653;
+      color: #f0f4f8;
+      text-align: center;
+      padding: 1rem 1rem;
+      font-size: 0.9rem;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    label {
+      display: block;
+      margin: 0.5rem 0 0.2rem 0;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+    button {
+      margin-top: 1rem;
+      background-color: #2a9d8f;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      color: white;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #21867a;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      .gallery img {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Schizophrenia Support Fund</h1>
+  <p>Helping people with schizophrenia get medicines, care, and support</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">What is Schizophrenia?</a>
+  <a href="#resources">Resources</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>
+      Many people with schizophrenia live in challenging conditions and often face misunderstanding from society. Our fund supports them by providing access to necessary medicines, nutritious food, and care.
+    </p>
+    <p>Your donations can make a real difference.</p>
+
+    <div class="donate-section">
+      <h3>Support the Fund</h3>
+      <p>Please send donations to our Bitcoin wallet:</p>
+      <p class="btc-address">1hNjTHC3tH6YacBXgaXREAMe2fDaDjA2K</p>
+      <img src="qr-code.png" alt="Bitcoin wallet QR code" />
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>What is Schizophrenia?</h2>
+    <p>
+      Schizophrenia is a chronic mental disorder that affects a person's thoughts, feelings, and behaviors. People with schizophrenia may experience hallucinations, delusions, and difficulty thinking clearly.
+    </p>
+    <p>
+      For more detailed information, visit the <a class="external-link" href="https://en.wikipedia.org/wiki/Schizophrenia" target="_blank" rel="noopener noreferrer">Wikipedia article on Schizophrenia</a>.
+    </p>
+  </section>
+
+  <section id="resources">
+    <h2>Useful Resources</h2>
+    <ul>
+      <li><a class="external-link" href="https://www.nimh.nih.gov/health/topics/schizophrenia" target="_blank" rel="noopener noreferrer">National Institute of Mental Health (NIMH)</a></li>
+      <li><a class="external-link" href="https://www.schizophrenia.com/" target="_blank" rel="noopener noreferrer">Schizophrenia.com</a></li>
+      <li><a class="external-link" href="https://www.mentalhealth.gov/what-to-look-for/schizophrenia" target="_blank" rel="noopener noreferrer">MentalHealth.gov</a></li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="images/symptoms.jpg" alt="Symptoms Infographic" />
+      <img src="images/treatment.jpg" alt="Treatment" />
+      <img src="images/support.jpg" alt="Support and Care" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you want to help, have questions, or need support, please fill out the form below:</p>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>Thank you for your kindness and support! &copy; 2025 Schizophrenia Support Fund</p>
+</footer>
+
+</body>
+</html>
